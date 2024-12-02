@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* start welcome-section */
+.welcome-sec{
+    height: 600px;
+    background: url(../images/open.png) no-repeat ;
+    background-size: cover ;
+    position: relative;  
+}
+.img-welcome img{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    height: 60%;
+    width: 50%;
+}
+.header{
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 240, 253, 0.927);
+    z-index: 5;
+}
+.header img{
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+ul{
+    float: right;
+    margin-right: 500px;
+}
+.li1{
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 23px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.li1 a{
+    text-decoration: none;
+    color: #b65069;
+}
+.li1 a:hover{
+    color: #b6506ab3;
+}
+/* end welcome-section */
+/* start product-section */
+.product-sec{
+    margin-top: 300px;
+}
+h2{
+    text-align: center;
+    color:  #b65069;
+    font-size: 40px;
+}
+.line{
+    width: 700px;
+    height: 3px;
+    background-color:#b65069 ;
+    margin: auto;
+}
+h3{
+    margin:100px 0 0 100px;
+    color:  #b65069;
+    font-size: 35px;
+}
+.container-1{
+    width: 90%;
+    margin: 50px auto ;
+    overflow: auto;
+    height: 1300px;
+    position: relative;
+}
+.img1{
+    height: 500px;
+    width: 400px;
+}
+.Product{
+    position: relative;
+    float: left;
+    margin:60px 25px;
+    text-align: center;  
+}
+.price{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.714);
+    padding-top: 220px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+ .Product:hover .price{
+    visibility: visible;
+    opacity: 1;
+}
+.p{
+    color: aliceblue;
+    font-size: 40px;
+}
+.b1{
+    font-size: 18px;
+    padding: 10px 10px;
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.09);
+}
+.bouquet{
+    height: 3200px;
+}
+/* end product-section */
+/* start about-section */
+.about-sec{
+    overflow: auto;
+}
+.background-about{
+    height: 500px;
+    width: 600px;
+    background-color:  rgba(255, 240, 253, 0.927);
+    float: left;
+}
+.img-about img{
+    height: 450px;
+    width: 500ppx;
+    float: left;
+    margin-left: -550px;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+.about-us{
+    font-size: 25px;
+    margin: 120px 50px;
+}
+.line-about{
+    width: 400px;
+    margin-left: 870px;  
+}
+.about-us span{
+    display: block;
+    line-height: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+/* end about-section */
+/* start contact-section */
+.contact-sec{
+    height: 400px;
+    background: url(../images/contact.png) no-repeat fixed center ;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 50PX;
+}
+.background-content{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #f2e7ecbb;
+}
+.s-contact{
+    display: inline-block;
+    margin: 50px 140px;
+    font-size: 20px;
+    color: 000;
+    font-weight: bold;
+}
+.icon{
+    font-size: 15px;
+    margin: 50px 300px;
+    color: black;
+}
+.a-contact{
+    color: #000;
+}
+.message-contact{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.message-contact textarea{
+    height: 40px;
+    width: 200px;
+}
+.message-contact button{
+    background-color: #b65069;
+    color: white;
+    width: 50px;
+    height: 30px;
+}
+/* end contact-section */
+/* start testimonial-section */
+.opinions{
+    margin-top: 30px;
+}
+.customer{
+    height: 210px;
+    width: 100%;
+    overflow: auto;
+}
+.customer-img{
+    margin: 0 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.customer-opinion{
+    width: 1200px;
+    font-size: 20px;
+    float: right;
+    margin: 80px  0 10px 10px;
+}
+.customer-opinion p{
+    color: #b65069;
+    font-size: 25px;
+}
+.customer-opinion .message{
+    height: 50px;
+    width: 800px;
+    font-size: 20px;
+}
+.customer-opinion input{
+    height: 30px;
+    color: #b65069;
+    font-size: 25px;
+}
+.save{
+    height: 30px;
+    width: 60px;
+    background-color: #b65069;
+    font-size: 15px;
+    color: white;
+}
+/* end testimonial-section */
